@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS Course;
 DROP TABLE IF EXISTS Department;
 DROP TABLE IF EXISTS Classroom;
 
-# Table creation! Create Tables with Foreign Keys after the referenced tables are created!
+-- Table creation! Create Tables with Foreign Keys after the referenced tables are created!
 
 CREATE TABLE Classroom
 	(Building		VARCHAR(15),
